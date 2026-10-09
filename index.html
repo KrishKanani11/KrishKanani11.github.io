@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish Kanani | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+        header {
+            background: #12304a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+        nav {
+            background: #1c4565;
+            text-align: center;
+            padding: 14px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #65e0b2;
+        }
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .hero {
+            background: white;
+            text-align: center;
+            padding: 55px 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            color: #12304a;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            max-width: 650px;
+            margin: 0 auto 20px;
+            color: #555;
+        }
+        .button {
+            display: inline-block;
+            background: #087f8c;
+            color: white;
+            padding: 11px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background: #065d67;
+        }
+        section {
+            padding: 30px 0;
+        }
+        h2 {
+            color: #12304a;
+            margin-bottom: 15px;
+        }
+        .card {
+            background: white;
+            padding: 22px;
+            margin: 15px 0;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .card h3 {
+            color: #087f8c;
+            margin-bottom: 8px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #dcefeb;
+            color: #12304a;
+            padding: 8px 14px;
+            border-radius: 5px;
+        }
+        .project {
+            border-left: 5px solid #087f8c;
+        }
+        footer {
+            background: #12304a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 92%;
+            }
+            .hero h2 {
+                font-size: 28px;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Krish Kanani</h1>
+        <p>Personal Portfolio | Finance and AI</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Welcome to My Portfolio</h2>
+        <p>
+            Hello, I'm Krish Kanani. I am interested in finance,
+            business, financial markets, and artificial intelligence.
+            This website introduces my interests and projects.
+        </p>
+        <a class="button"
+           href="https://www.linkedin.com/in/krish-kanani-9b5917377/"
+           target="_blank" rel="noopener noreferrer">Visit My LinkedIn</a>
+    </div>
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="card">
+                <p>
+                    I enjoy learning about businesses, financial markets,
+                    and how technology can solve real-world problems.
+                    This portfolio shares my interests and learning journey.
+                </p>
+            </div>
+        </section>
+        <section id="interests">
+            <h2>My Interests</h2>
+            <div class="card">
+                <h3>Finance and Financial Markets</h3>
+                <p>
+                    I am interested in company performance, financial
+                    statements, investing concepts, and market trends.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Artificial Intelligence</h3>
+                <p>
+                    I am exploring how AI and large language models
+                    can help people understand information more efficiently.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Business and Innovation</h3>
+                <p>
+                    I enjoy learning how businesses develop ideas,
+                    use technology, and create value for customers.
+                </p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="card project">
+                <h3>MarketMind AI</h3>
+                <p>
+                    MarketMind AI is an educational project concept
+                    exploring how a language model could explain
+                    financial concepts and company information.
+                </p>
+                <p>
+                    Potential features include financial question
+                    answering, explanations of financial ratios,
+                    and summaries of company research.
+                </p>
+            </div>
+            <div class="card project">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    This website uses HTML and CSS to introduce my
+                    interests, project ideas, and professional profile.
+                </p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Skills and Technologies</h2>
+            <p>These are areas I am exploring and developing.</p>
+            <br>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Artificial Intelligence</span>
+                <span class="skill">Financial Research</span>
+                <span class="skill">Problem Solving</span>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Connect With Me</h2>
+            <div class="card">
+                <p>
+                    Thank you for visiting my portfolio. Connect with
+                    me on LinkedIn to learn more about my interests
+                    and follow my professional journey.
+                </p>
+                <a class="button"
+                   href="https://www.linkedin.com/in/krish-kanani-9b5917377/"
+                   target="_blank" rel="noopener noreferrer">
+                    Connect on LinkedIn
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Krish Kanani | Personal Portfolio</p>
+    </footer>
+</body>
+</html>
